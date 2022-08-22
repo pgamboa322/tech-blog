@@ -1,0 +1,24 @@
+
+ <div class="blogPostContainer">
+    <br/>
+    <h2 style="color: green;">
+      Add a new blog post!
+    </h2>
+    <form class="blogPostForm" style="width: 38rem;">
+    <div class="mb-3">
+        <label for="title" class="form-label">Title</label>
+        <textarea class="form-control" id="title" name="title" rows="3"> {{title}}</textarea>
+    </div>
+    <div class="mb-3">
+        <label for="content" class="form-label">What's on your mind?</label>
+        <textarea class="form-control" id="content" name="content" rows="3"> {{content}}</textarea>
+    </div>
+    <div class="mb-3">
+        <label class="form-label" for="author">Author</label>
+        <textarea class="form-control" id="author" name="author" rows="3"> {{author}}</textarea>
+    </div>
+    <button type="submit" class="btn btn-success" value="Submit">Submit</button>
+</form>
+</div>
+
+<script src="/js/post.js"></script>

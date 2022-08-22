@@ -20,7 +20,7 @@ router.get('/', async (req, res) => {
      post.get({ plain: true })
       );
     console.log(posts);
-    res.render('homepage', {
+    res.render('home', {
       posts,
       loggedIn: req.session.loggedIn,
     });
